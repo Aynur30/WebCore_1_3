@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" media="(min-width: 320px) and (max-width: 767.98px)" href="css/phone.css">
+        <link rel="stylesheet" media="(min-width: 768px) and (max-width: 1119.98px)" href="css/pad.css">
+        <link rel="stylesheet" media="(min-width: 1120px)" href="css/desktop.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <section class="upper-menu phone">
+            <button type="button" class="upper-menu__item"><img src="img/burger.svg"></button>
+            <button type="button" class="upper-menu__item"><img src="img/group.svg"></button>
+            <button type="button" class="upper-menu__item" disabled><img src="img/divider.svg"></button>
+            <button type="button" class="upper-menu__item"><img src="img/repair.svg"></button>
+            <button type="button" class="upper-menu__item"><img src="img/checkstatus.svg"></button>
+        </section>
+        <section class="upper-menu pad">
+            <div class="upper-menu__left">
+                <img src="img/burger.svg" class="upper-menu__item">
+                <img src="img/divider.svg" class="upper-menu__item">
+                <img src="img/group.svg" class="upper-menu__item">
+            </div>
+            <div class="upper-menu__right">
+                <img src="img/call.svg" class="upper-menu__item">
+                <img src="img/chat.svg" class="upper-menu__item">
+                <img src="img/profile.svg" class="upper-menu__item">
+                <img src="img/divider.svg" class="upper-menu__item">
+                <img src="img/repair.svg" class="upper-menu__item">
+                <img src="img/checkstatus.svg" class="upper-menu__item">
+            </div>
+        </section>
+        <header class="title">
+            <div class="title__left">
+                <img src="img/highlight.svg" class="title__item">
+                <h1 class="title__item title__label">Услуги и сервисы</h1>
+            </div>
+            <div class="title__right desktop">
+                <button type="button" class="title__item">
+                    <span>Оставить заявку</span>
+                    <img src="img/repair.svg" class="title__icon">
+                </button>
+                <button type="button" class="title__item">
+                    <span>Статус ремонта</span>
+                    <img src="img/checkstatus.svg" class="title__icon">
+                </button>
+            </div>
+        </header>
+        <nav class="slide-menu">
+            <button type="button" class="slide-menu__item slide-menu__item_active">
+                Ремонтируемые устройства
+            </button>
+            <Button type="button" class="slide-menu__item">
+                Дополнительные услуги
+            </Button>
+            <button type="button" class="slide-menu__item">
+                Цены на услуги
+            </button>
+            <button type="button" class="slide-menu__item">
+                Адреса сервисных центров
+            </button>
+            <button type="button" class="slide-menu__item">
+                Специальные цены
+            </button>
+            <button type="button" class="slide-menu__item">
+                Отзывы
+            </button>
+        </nav>
+        <section class="info">
+            <div class="info__left">
+                <p class="info__text">
+                    Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                </p>
+                <p class="info__text pad">
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
+                </p>
+                <p class="info__text desktop">
+                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                </p>
+                <button type="button" class="info_expand">
+                    <img src="img/expand.svg">
+                    <p>
+                        Читать далее
+                    </p>
+                </button>
+                <img src="img/photo_wall.jpg" class="info__img phone">
+            </div>
+            <div class="info__right pad desktop">
+                <img src="img/photo_wall.jpg" class="info__img">
+            </div>
+        </section>
+        <script src="js/button-click.js"></script>
+    </body>
+</html>
